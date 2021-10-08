@@ -12,12 +12,5 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    import time
-
-    sec = 0
-    while sec < 60:
-        print('Egor   ', sec)
-        time.sleep(5)
-        sec += 5
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
