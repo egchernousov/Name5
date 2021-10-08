@@ -1,3 +1,3 @@
 FROM python:3
-COPY main.py ./
-CMD [ "python", "-u", "./main.py" ]
+COPY time_Egor.py ./
+CMD [ "python", "-u", "./time_Egor.py" ]
