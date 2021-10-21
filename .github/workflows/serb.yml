@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Build & Upload Image to Yandex Image Registry Action
+      - name: Build & Upload Image to Yandex Image Registry Action lol
         uses: pyropy/yandex-cloud-image-registry@v0.8-alpha
         with:
           YC_SERVICE_ACCOUNT_KEY_FILE: ajesjli5mc7pjauatdhk
