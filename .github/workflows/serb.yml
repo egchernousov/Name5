@@ -1,0 +1,19 @@
+name: Deployment
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build & Upload Image to Yandex Image Registry Action
+        uses: pyropy/yandex-cloud-image-registry@v0.8-alpha
+        with:
+          YC_SERVICE_ACCOUNT_KEY_FILE: ajesjli5mc7pjauatdhk
+          YC_IMG_REGISTRY_ID: cr.yandex/crpe3sv883lqn71doh45
+          DOCKER_CONTEXT: "./"
+          DOCKER_IMG_NAME: "backend"
