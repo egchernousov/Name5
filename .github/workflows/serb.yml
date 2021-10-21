@@ -14,6 +14,6 @@ jobs:
         uses: pyropy/yandex-cloud-image-registry@v0.8-alpha
         with:
           YC_SERVICE_ACCOUNT_KEY_FILE: ajesjli5mc7pjauatdhk
-          YC_IMG_REGISTRY_ID: cr.yandex/crpe3sv883lqn71doh45
+          YC_IMG_REGISTRY_ID: crpe3sv883lqn71doh45
           DOCKER_CONTEXT: "./"
           DOCKER_IMG_NAME: "backend"
