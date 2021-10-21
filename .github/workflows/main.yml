@@ -20,7 +20,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: cr.yandex
-          username: oauth
+          username: oaut
           password: AQAAAAAMA9uLAATuweu0HCX6g0W_n_doSpHp8g4
       
       - name: Build and push Docker image
