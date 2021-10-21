@@ -30,4 +30,4 @@ jobs:
           context: .
           push: true
           tags: test
-          labels: testAQAAAAAMA9uLAATuweu0HCX6g0W_n_doSpHp8g4
+          labels: test
