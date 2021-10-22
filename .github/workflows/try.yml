@@ -1,4 +1,4 @@
-name: ci
+name: Build and push Docker Image to Yandex Cloud
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
           username: oauth
           password: AQAAAAAMA9uLAATuweu0HCX6g0W_n_doSpHp8g4
       -
-         name: Build, tag, and push image to Yandex Cloud Container Registry
+         name: Build and push image to Yandex Cloud Container Registry
          run: |
           docker build -t cr.yandex/crpe3sv883lqn71doh45/time:latest .
           docker push cr.yandex/crpe3sv883lqn71doh45/time:latest
